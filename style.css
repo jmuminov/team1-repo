@@ -1,0 +1,25 @@
+body {
+    background-color: #F3C98B;
+}
+.nav-items {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    background-color: #C46D5E;
+    padding: .5em;
+    font-family: amatic sc;
+    font-weight: 700;
+    
+}
+.nav-items li{
+    padding: .1em .5em;
+    font-size: 3rem;
+}
+.nav-items li:hover{
+    background-color: #DAA588;
+    border-radius: 10px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+}
