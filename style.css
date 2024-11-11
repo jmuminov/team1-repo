@@ -23,8 +23,6 @@ body {
     text-decoration: none;
     color: black;
 }
-
-
 .about-content{
     background-color: antiquewhite;
     padding: 3em;
@@ -56,4 +54,20 @@ body {
     font-family: amatic sc;
     margin-bottom: 2em;
     font-size: 2rem;
+=======
+.theBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    min-height: 100hv;
+    padding: 85px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    width: 50%;
+}
+input {
+    width: 25.75rem;
+    height: 1.1rem;
+    font-size: 18px;
 }

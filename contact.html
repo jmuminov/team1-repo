@@ -9,21 +9,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
       <ul class="nav-items">
-        <li><a href="/index.html">
-          Home</a>
-        </li>
+        <li><a href="/index.html"> Home</a></li>
         <li><a href="/about.html">About</a></li>
         <li><a href="/projects.html">Projects</a></li>
-        <li><a href="/contact.html" style="color: #ffffff; border-radius: 10px">Contact</a></li>
+        <li>
+          <a href="/contact.html" style="color: #ffffff; border-radius: 10px"
+            >Contact</a
+          >
+        </li>
       </ul>
     </nav>
-    <div class="main-content">
-        <h1>Contact</h1>
+    <div class="theBox">
+      <main>
+        <h1>Contact Us</h1>
+        <form id="form">
+          <div>
+            <label for="name">Name</label>
+            <br />
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="name">Email</label>
+            <br />
+            <input type="email" id="email" name="email" />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <br />
+            <textarea name="message" id="message" rows="6" cols="50"></textarea>
+          </div>
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </main>
     </div>
   </body>
 </html>
