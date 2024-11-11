@@ -23,6 +23,38 @@ body {
     text-decoration: none;
     color: black;
 }
+.about-content{
+    background-color: antiquewhite;
+    padding: 3em;
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-content h1{
+    font-family: amatic sc;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom:1em;
+}
+.about-content h2{
+    font-family: amatic sc;
+    font-weight: 700;
+    font-size: 2.3em;
+    margin: 0%;
+    padding: 0%;
+}
+.about-content p{
+    text-align: center;
+    font-family: amatic sc;
+    margin-bottom: 2em;
+    font-size: 2rem;
+=======
 .theBox {
     display: flex;
     flex-direction: column;
